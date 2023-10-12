@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: rgb(239, 239, 239);
+    font-size: 50px;
+}
+body{
+    background-color: rgb(172, 156, 156);
+}
+li{
+   color: rgb(245, 249, 249);
+   font-size: 30px;
+   padding: 1.2%;
+}
+button{
+    background-color: rgb(172, 156, 156);
+    font-size: 30px;
+    color: aliceblue;
+    margin: 20% 50% 0% 50%;
+    justify-content: center;
+
+}
+@media (min-width:60vh){
+    h1{
+      font-size: 5vh;
+    }
+    li{
+        font-size:8mm;
+        
+    }
+    button{
+        font-size:3vh;
+        margin: 5% 50% 0% 50%;
+        
+    }
+}
